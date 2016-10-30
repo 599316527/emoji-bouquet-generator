@@ -109,13 +109,7 @@ export default {
     }
   },
   computed: {
-    emojis() {
-        let {emoji, number} = this.option
-        let emojis = []
-        for (let i = number.length - 1; i >= 0; i--) {
-            emojis[i] = getEmojiPos(i)
-        }
-    }
+
   },
   methods: {
     getEmojiPos(i) {
